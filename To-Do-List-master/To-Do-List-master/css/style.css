@@ -1,0 +1,28 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%
+}
+
+div{
+	display: block;
+	width: 350px;
+	margin: auto;
+}
+
+h1{
+	text-align: center;
+	color: black;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	text-transform: uppercase;
+}
+
+ul{
+	margin:0;
+	padding: 0;
+}
+
+#completed-tasks span{
+	text-decoration: line-through;
+	font-size: 1.2em !important;
+}
